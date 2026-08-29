@@ -1,0 +1,39 @@
+{
+  "name": "beck",
+  "displayName": "Beck",
+  "description": "Plan and execute work in Beck. Bundles the Beck skill and MCP server for documents, Plan it, a shared backlog, and named bot tokens. Autonomy mode is an expressed choice.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Beck"
+  },
+  "homepage": "https://beck.bot/features/ai-agents",
+  "repository": "https://github.com/beckhq/beck-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "beck",
+    "project-management",
+    "backlog",
+    "mcp",
+    "agent-skills",
+    "grok-bot"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "./skills/",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BECK_API_TOKEN": {
+        "type": "string",
+        "title": "Beck API token",
+        "description": "Token from https://beck.bot/settings/tokens. Name it after this bot when staffing a roster."
+      },
+      "BECK_API_URL": {
+        "type": "string",
+        "title": "Beck URL",
+        "description": "Beck instance. Leave default unless you self-host.",
+        "default": "https://beck.bot"
+      }
+    },
+    "required": ["BECK_API_TOKEN"]
+  }
+}
