@@ -1,13 +1,13 @@
 ---
 name: beck
-description: Plan and execute work in Beck. Use when co-writing a workspace PRD, planning documents into epics, staffing multi-bot channels with named tokens, importing Plan it suggestions, or picking up a Beck task via MCP.
+description: Plan and execute work in Beck. Use for project management, product management, PRDs, planning documents, epics, user stories, backlog, icebox, tasks, Plan it, review, or multi-bot channels via MCP.
 ---
 
 # Beck
 
 Beck is the planning and execution system. Documents are the living planning corpus. Epics hold a working spec snapshot. Tasks are execution. Named API tokens let each bot show up as itself on the board.
 
-**This file goes stale when copied.** Before acting, read https://beck.bot/skill.md and https://beck.bot/llms.txt. If a local skill disagrees with the live skill, prefer the live skill. Version: 1.1.0 (https://beck.bot/api/skill/version).
+**This file goes stale when copied.** Before acting, read https://beck.bot/skill.md and https://beck.bot/llms.txt. If a local skill disagrees with the live skill, prefer the live skill. Version: 1.1.1 (https://beck.bot/api/skill/version).
 
 Auth is always `Authorization: Bearer beck_xxx` plus a workspace id. There are no public document URLs.
 

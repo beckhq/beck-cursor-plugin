@@ -1,8 +1,8 @@
 {
   "name": "beck",
   "displayName": "Beck",
-  "description": "Plan and execute work in Beck. Bundles the Beck skill and MCP server for documents, Plan it, a shared backlog, and named bot tokens. Autonomy mode is an expressed choice.",
-  "version": "1.1.0",
+  "description": "Project management for AI assistants — tasks, backlog, icebox, PRDs, epics, Plan it, review, and multi-bot automation. Cursor plugin with MCP so agents manage the same stories humans do.",
+  "version": "1.1.1",
   "author": {
     "name": "Beck"
   },
@@ -10,12 +10,26 @@
   "repository": "https://github.com/beckhq/beck-cursor-plugin",
   "license": "MIT",
   "keywords": [
-    "beck",
     "project-management",
+    "product-management",
+    "task-management",
+    "task-tracker",
     "backlog",
+    "icebox",
+    "prd",
+    "product-requirements",
+    "epic",
+    "user-stories",
+    "story-points",
+    "planning",
+    "spec",
+    "review",
+    "automation",
+    "ai-agents",
     "mcp",
-    "agent-skills",
-    "grok-bot"
+    "cursor",
+    "grok-bot",
+    "beck"
   ],
   "logo": "assets/logo.svg",
   "skills": "./skills/",
